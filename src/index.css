@@ -141,6 +141,15 @@ footer p {
   .movies-info h3 {
     font-size: 18px;
   }
+
+  .overview {
+    padding: 1.5rem;
+    max-height: 100%;
+  }
+
+  .overview h3 {
+    margin: 10px 0;
+  }
 }
 
 @media screen and (max-width: 564px) {
@@ -167,6 +176,16 @@ footer p {
   .movies-info h3 {
     font-size: 14px;
   }
+
+  .overview {
+    padding: 1rem;
+    font-size: 14px;
+    max-height: 100%;
+  }
+
+  .overview h3 {
+    margin: 10px 0;
+  }
 }
 
 @media screen and (max-width: 444px) {
@@ -189,13 +208,24 @@ footer p {
   }
 
   .movies-info h3 {
-    font-size: 12px;
+    font-size: 10px;
+  }
+
+  .overview {
+    padding: .8rem;
+    font-size: 10px;
+    max-height: 100%;
+  }
+
+  .overview h3 {
+    font-size: 16px;
+    margin: 10px 0;
   }
 }
 
 @media screen and (max-width: 384px) {
   header {
-    padding: 0.8rem 0.4rem;
+    padding: 0.8rem 0.8rem;
   }
 
   header h2,
@@ -213,6 +243,6 @@ footer p {
   }
 
   .movies-info h3 {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
